@@ -1,0 +1,8 @@
+package com.example.demoRestApi.ManyDemoMany;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface EmpBookRepo extends JpaRepository<EmpBook, Integer> {
+
+}
